@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CharacterDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\Touch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\boids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CharacterDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\Sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\Touch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\boids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CmakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\bin\CoreData">
+      <Filter>Resource Dirs</Filter>
+    </None>
+    <None Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\bin\Data">
+      <Filter>Resource Dirs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DC489AB6-42B5-3A21-9156-31866902D156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Dirs">
+      <UniqueIdentifier>{5E241F99-571F-3E5D-A78D-D57D1F64C633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B6BAB1B-EF55-3E61-A61E-36C63F85C19D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

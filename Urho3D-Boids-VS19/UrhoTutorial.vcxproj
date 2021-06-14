@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{27621E57-80DD-3244-852E-498C79AD95CF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>UrhoTutorial</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UrhoTutorial.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UrhoTutorial</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UrhoTutorial.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UrhoTutorial</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UrhoTutorial.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UrhoTutorial_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Program Files (x86)/Windows Kits/10/Redist/D3D/x64/d3dcompiler_47.dll" "E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/bin"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;winmm.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/Release/UrhoTutorial.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/bin/UrhoTutorial.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Program Files (x86)/Windows Kits/10/Redist/D3D/x64/d3dcompiler_47.dll" "E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/bin"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;winmm.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/RelWithDebInfo/UrhoTutorial.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/bin/UrhoTutorial.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Program Files (x86)/Windows Kits/10/Redist/D3D/x64/d3dcompiler_47.dll" "E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/bin"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-1.7-VS19\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;winmm.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/Debug/UrhoTutorial_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/bin/UrhoTutorial_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CmakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids/CmakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SE:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids" "-BE:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19" --check-stamp-file "E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeCCompiler.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeCXXCompiler.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeRCCompiler.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeSystem.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\CheckCompilerToolchain.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\CheckHost.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\FindDirectX.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\FindUrho3D.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\GenerateExportHeader.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\UrhoCommon.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids/CmakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SE:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids" "-BE:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19" --check-stamp-file "E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeCCompiler.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeCXXCompiler.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeRCCompiler.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeSystem.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\CheckCompilerToolchain.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\CheckHost.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\FindDirectX.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\FindUrho3D.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\GenerateExportHeader.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\UrhoCommon.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids/CmakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SE:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids" "-BE:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19" --check-stamp-file "E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeCCompiler.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeCXXCompiler.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeRCCompiler.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CMakeSystem.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\CheckCompilerToolchain.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\CheckHost.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\FindDirectX.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\FindUrho3D.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\GenerateExportHeader.cmake;E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CMake\Modules\UrhoCommon.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\Character.cpp" />
+    <ClCompile Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CharacterDemo.cpp" />
+    <ClCompile Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\Touch.cpp" />
+    <ClCompile Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\boids.cpp" />
+    <ClCompile Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\projectile.cpp" />
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\Character.h" />
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\CharacterDemo.h" />
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\Sample.h" />
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\Touch.h" />
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\boids.h" />
+    <ClInclude Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\projectile.h" />
+    <None Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\bin\CoreData" />
+    <None Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids\bin\Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\ZERO_CHECK.vcxproj">
+      <Project>{8E8EAFBA-0F69-3831-B191-5F0BA70C5EFF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

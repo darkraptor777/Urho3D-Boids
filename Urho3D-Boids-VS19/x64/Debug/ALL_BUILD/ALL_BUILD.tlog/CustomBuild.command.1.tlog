@@ -1,0 +1,10 @@
+^E:\UNI\CGP3016M- ADVANCED GAMES PROGRAMMING\ASSESSMENTS\ASSESSMENT ITEM 1\URHO3D\URHO3D-BOIDS\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SE:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids" "-BE:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19" --check-stamp-file "E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

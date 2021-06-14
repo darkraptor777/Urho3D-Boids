@@ -1,0 +1,274 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 13/12/2019 00:48:08.
+Project "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/3.15.5/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 13/12/2019 00:48:10.
+Project "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\3.15.5\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/3.15.5/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_eac8d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  testCCompiler.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eac8d.dir\Debug\\" /Fd"cmTC_eac8d.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cmTC_eac8d.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_eac8d.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_31c92.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31c92.dir\Debug\\" /Fd"cmTC_31c92.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
+  cmTC_31c92.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_31c92.exe
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_39e3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  testCXXCompiler.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_39e3c.dir\Debug\\" /Fd"cmTC_39e3c.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cmTC_39e3c.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_39e3c.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b3f75.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b3f75.dir\Debug\\" /Fd"cmTC_b3f75.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_b3f75.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_b3f75.exe
+
+
+
+Determining if the include file d3dcompiler.h exists passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_705f4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  CheckIncludeFile.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_705f4.dir\Debug\\" /Fd"cmTC_705f4.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  cmTC_705f4.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_705f4.exe
+
+
+
+Determining if the include file d3d9.h exists passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bc0af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bc0af.dir\Debug\\" /Fd"cmTC_bc0af.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  cmTC_bc0af.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_bc0af.exe
+
+
+
+Determining if the include file d3d11.h exists passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_224fb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  CheckIncludeFile.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_224fb.dir\Debug\\" /Fd"cmTC_224fb.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  cmTC_224fb.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_224fb.exe
+
+
+
+Determining if the include file ddraw.h exists passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_966b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_966b0.dir\Debug\\" /Fd"cmTC_966b0.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  cmTC_966b0.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_966b0.exe
+
+
+
+Determining if the include file dsound.h exists passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_90c42.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  CheckIncludeFile.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_90c42.dir\Debug\\" /Fd"cmTC_90c42.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  cmTC_90c42.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_90c42.exe
+
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_45806.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  CheckIncludeFile.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_45806.dir\Debug\\" /Fd"cmTC_45806.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  cmTC_45806.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_45806.exe
+
+
+
+Determining if the include file dxgi.h exists passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_01f37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  CheckIncludeFile.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_01f37.dir\Debug\\" /Fd"cmTC_01f37.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  cmTC_01f37.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_01f37.exe
+
+
+
+Determining if the include file xaudio2.h exists passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dfb98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  CheckIncludeFile.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dfb98.dir\Debug\\" /Fd"cmTC_dfb98.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  cmTC_dfb98.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_dfb98.exe
+
+
+
+Determining if files windows.h;xinput.h exist passed with the following output:
+Change Dir: E:/Uni/CGP3016M- Advanced Games Programming/Assessments/Assessment Item 1/Urho3D/Urho3D-Boids-VS19/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ce07d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.3.2+e481bbf88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28107 for x64
+  HAVE_XINPUT_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce07d.dir\Debug\\" /Fd"cmTC_ce07d.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CheckIncludeFiles\HAVE_XINPUT_H.c"
+  cmTC_ce07d.vcxproj -> E:\Uni\CGP3016M- Advanced Games Programming\Assessments\Assessment Item 1\Urho3D\Urho3D-Boids-VS19\CMakeFiles\CMakeTmp\Debug\cmTC_ce07d.exe
+
+
+
